@@ -1,0 +1,92 @@
+/* FILEPATH: c:\Users\Vishal\Desktop\Kalvium Task\styles.css */
+
+/* Style the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the h1 element */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the form element */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style the label element */
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the input element */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the button element */
+button[type="submit"],
+#location-btn {
+    width: 15rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the button element on hover */
+button[type="submit"]:hover,
+#location-btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Style the div element */
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style the h2 element */
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Style the p element */
+p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+/* Style the img element */
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
